@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+}
+
+.left {
+    left: 100px;
+    background-color: #111;
+  }
+  
