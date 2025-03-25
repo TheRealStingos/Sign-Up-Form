@@ -1,9 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 .container {
     display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
 }
 
-.left {
-    left: 100px;
-    background-color: #111;
-  }
-  
+.left-split{
+    flex: 1;
+    
+}
+
+.splash{
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+}
+
+.right-split{
+    flex: 1;
+}
+
+.logo{
+    position: relative;
+    bottom: 900px;
+    background-color: black;
+    opacity: .5;
+}
