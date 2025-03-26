@@ -129,6 +129,22 @@ input{
 button{
     color: white;
     background-color: #596D48;
+    margin-top: 40px;
+    border: none;
+    padding: 12px 48px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.account-area{
+    margin-left: 50px;
+}
+
+.account-area>h3{
+    margin-top: 30px;
 }
 
 a{
