@@ -57,15 +57,17 @@
     font-family: sans-serif;
 }
 
+.motto-text, .action-text, .input-forms, .account-area {
+    margin-left: 50px;
+}
+
 .motto-text {
     font-size: 1.3rem;
-    margin-left: 50px;
     margin-bottom: 50px;
     max-width: 45%;
 }
 
 .action-text{
-    margin-left: 50px ;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -115,7 +117,6 @@ input{
     justify-content: left;
     gap: 20px;
     max-width: 900px;
-    margin-left: 50px;
     padding-bottom: 30px;
 }
 
@@ -137,10 +138,6 @@ button{
     cursor: pointer;
     font-weight: 700;
     font-size: 1.1rem;
-}
-
-.account-area{
-    margin-left: 50px;
 }
 
 .account-area>h3{
